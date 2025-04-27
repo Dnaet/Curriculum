@@ -1,0 +1,134 @@
+/* todo el cuerpo del CV */
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #f8f9fa; 
+}
+
+
+
+
+/* contenedor que envuelve todo el contenido del CV */
+.contenedor-principal {
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+  border: 2px solid #ffffff; 
+}
+
+
+
+
+/*parte superior*/
+.parte-superior {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  background-color: #b5e8fc;
+  border: 2px solid #ffffff;
+  padding: 20px;
+  height: 150px;
+}
+
+.parte-superior .img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.parte-superior .tex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.parte-superior h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.parte-superior p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/*creo que puedo cambiar los de tx y h1 y p a solo uno No olvidar
+
+/*parte Centro con los dos Contenedores Izquierda y Derecha*/
+
+.centro {
+  display: flex;
+  flex: 1; 
+  background-color: #ffffff; 
+}
+
+
+
+
+
+/* contenedor de la parte izquierda */
+
+.parte-izquierda {
+  background-color: #afb3f8; 
+  
+  flex: 3;
+  padding: 20px;
+  text-align: center; 
+}
+
+
+
+
+/* contenedor de la parte derecha */
+
+.parte-derecha {
+  
+  flex: 1; 
+  padding: 20px;
+  text-align: center;
+}
+.parte-derecha h3 {
+  font-size: 3; 
+  text-align: center; 
+  margin-top: 50px; 
+}
+.parte-derecha p {
+  
+  font-size: 2; 
+  text-align: left;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+/*parte Inferior*/
+
+
+
+
+.parte-inferior {
+  background-color: #b5e8fc; 
+  border: 2px solid #ffffff; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px; 
+  height: 60px; 
+  
+}
+
+
+.parte-inferior .columnas {
+  flex: 1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+
+}
+
